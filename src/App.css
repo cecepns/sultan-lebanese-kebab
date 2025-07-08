@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+.font-arabic {
+  font-family: 'Noto Sans Arabic', Arial, sans-serif;
+}
