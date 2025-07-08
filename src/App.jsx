@@ -12,26 +12,32 @@ import Admin from './pages/Admin';
 import useScrollToTop from './hooks/useScrollToTop';
 import './App.css';
 
-function App() {
-  // Use the scroll to top hook
+// Component that uses the scroll to top hook (must be inside Router context)
+function AppContent() {
   useScrollToTop();
+  
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/partnership" element={<Partnership />} />
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
+}
 
+function App() {
   return (
     <HelmetProvider>
       <Router>
-        <div className="min-h-screen bg-gray-50">
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/menu" element={<Menu />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/partnership" element={<Partnership />} />
-            <Route path="/admin" element={<Admin />} />
-          </Routes>
-          <Footer />
-        </div>
+        <AppContent />
       </Router>
     </HelmetProvider>
   );

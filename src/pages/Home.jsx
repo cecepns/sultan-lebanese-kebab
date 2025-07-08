@@ -132,7 +132,7 @@ const Home = () => {
         <img
           src={kebab}
           alt="kebab"
-          className="w-44 md:w-96 right-0 -bottom-20 h-auto absolute object-cover z-10"
+          className="w-44 md:w-96 right-0 -bottom-10 md:-bottom-20 h-auto absolute object-cover z-10"
         />
 
         <img
