@@ -13,6 +13,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMobileMenu = () => {
+    setIsOpen(false);
+  };
+
   // Function to check if a link is active
   const isActive = (path) => {
     if (path === '/') {
@@ -137,36 +141,42 @@ const Navbar = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-primary-800">
             <Link 
               to="/" 
+              onClick={closeMobileMenu}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${getMobileActiveClass('/')}`}
             >
               Home
             </Link>
             <Link 
               to="/about" 
+              onClick={closeMobileMenu}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${getMobileActiveClass('/about')}`}
             >
               About Us
             </Link>
             <Link 
               to="/menu" 
+              onClick={closeMobileMenu}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${getMobileActiveClass('/menu')}`}
             >
               Menu
             </Link>
             <Link 
               to="/partnership" 
+              onClick={closeMobileMenu}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${getMobileActiveClass('/partnership')}`}
             >
               Kemitraan
             </Link>
             <Link 
               to="/gallery" 
+              onClick={closeMobileMenu}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${getMobileActiveClass('/gallery')}`}
             >
               Gallery
             </Link>
             <Link 
               to="/contact" 
+              onClick={closeMobileMenu}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${getMobileActiveClass('/contact')}`}
             >
               Contact
