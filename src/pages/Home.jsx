@@ -111,15 +111,15 @@ const Home = () => {
 
   return (
     <>
-      <SEO 
+      <SEO
         title="Beranda"
         description="Sultan Lebanese Kebab - Kebab autentik Lebanon terenak di Balikpapan. Nikmati cita rasa asli Lebanon dengan bahan berkualitas halal. Pesan online via WhatsApp: 0813-4538-3331"
         keywords="kebab lebanon balikpapan, sultan lebanese kebab, kebab autentik, makanan halal balikpapan, pesan kebab online, delivery kebab"
         url="https://sultanlebanesekebab.com"
       />
       <div className="min-h-screen">
-      {/* Banner Section */}
-      <section className="relative flex flex-col items-center justify-center bg-gradient-to-r from-primary-700 to-primary-600 text-white py-20 min-h-[700px]">
+        {/* Banner Section */}
+        <section className="relative flex flex-col items-center justify-center bg-gradient-to-r from-primary-700 to-primary-600 text-white py-20 min-h-[700px]">
         {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
         {/* <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30" style={{ backgroundImage: 'url(/src/assets/.png)' }}></div> */}
 
@@ -132,7 +132,7 @@ const Home = () => {
         <img
           src={kebab}
           alt="kebab"
-          className="w-44 md:w-96 right-0 -bottom-20 h-auto absolute h-full object-cover z-10"
+          className="w-44 md:w-96 right-0 -bottom-20 h-auto absolute object-cover z-10"
         />
 
         <img
@@ -183,7 +183,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* <div className="relative h-14 mt-4">
+        {/* <div className="relative h-14 mt-4">
         <img
           src={wave}
           alt="wave"
@@ -191,33 +191,33 @@ const Home = () => {
         />
       </div> */}
 
-      {/* Welcome Section */}
-      <section className="py-16 bg-white md:mt-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
-                Selamat Datang di <br /> Sultan Lebanese Kebab
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Sejak 2021, kami telah menyajikan kebab autentik dengan cita
-                rasa Lebanon yang menggugah selera. Dengan bahan-bahan
-                berkualitas tinggi, kami berkomitmen memberikan pengalaman
-                kuliner terbaik untuk Anda. Semua produk kami telah
-                bersertifikat halal dan menggunakan bahan-bahan pilihan yang
-                aman dan terjamin kualitasnya.
-              </p>
+        {/* Welcome Section */}
+        <section className="py-16 bg-white md:mt-24">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div className="mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
+                  Selamat Datang di <br /> Sultan Lebanese Kebab
+                </h2>
+                <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                  Sejak 2021, kami telah menyajikan kebab autentik dengan cita
+                  rasa Lebanon yang menggugah selera. Dengan bahan-bahan
+                  berkualitas tinggi, kami berkomitmen memberikan pengalaman
+                  kuliner terbaik untuk Anda. Semua produk kami telah
+                  bersertifikat halal dan menggunakan bahan-bahan pilihan yang
+                  aman dan terjamin kualitasnya.
+                </p>
+              </div>
+              <div className="flex justify-center items-center bg-gradient-to-r from-primary-700 to-primary-600 rounded-lg">
+                <img
+                  src={kebab2}
+                  alt="logo"
+                  className="w-96 h-auto object-cover rounded-lg"
+                />
+              </div>
             </div>
-            <div className="flex justify-center items-center bg-gradient-to-r from-primary-700 to-primary-600 rounded-lg">
-              <img
-                src={kebab2}
-                alt="logo"
-                className="w-96 h-auto object-cover rounded-lg"
-              />
-            </div>
-          </div>
 
-          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="bg-primary-100 rounded-full p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                 <Award className="h-8 w-8 text-primary-600" />
@@ -252,11 +252,11 @@ const Home = () => {
               </p>
             </div>
           </div> */}
-        </div>
-      </section>
+          </div>
+        </section>
 
-      {/* Franchise Section */}
-      {/* <section className="py-16 bg-gray-50">
+        {/* Franchise Section */}
+        {/* <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
@@ -316,44 +316,44 @@ const Home = () => {
         </div>
       </section> */}
 
-      {/* Why Choose Us Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
-              Mengapa Harus Memilih Kami?
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Keunggulan yang membuat Sultan Lebanese Kebab menjadi pilihan
-              terbaik untuk bisnis franchise Anda.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-r from-primary-700 to-primary-600 rounded-lg p-5 md:p-14">
-              <img
-                src={logoClear}
-                alt="logo"
-                className="w-full h-auto object-cover"
-              />
+        {/* Why Choose Us Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
+                Mengapa Harus Memilih Kami?
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Keunggulan yang membuat Sultan Lebanese Kebab menjadi pilihan
+                terbaik untuk bisnis franchise Anda.
+              </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
-              {whyChooseUs.map((item, index) => (
-                <div
-                  key={index}
-                  className="text-center bg-gray-50 p-6 rounded-lg"
-                >
-                  <div className="mb-4">{item.icon}</div>
-                  <h3 className="text-lg font-semibold text-primary-700 mb-2">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-600">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
 
-          {/* <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-gradient-to-r from-primary-700 to-primary-600 rounded-lg p-5 md:p-14">
+                <img
+                  src={logoClear}
+                  alt="logo"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
+                {whyChooseUs.map((item, index) => (
+                  <div
+                    key={index}
+                    className="text-center bg-gray-50 p-6 rounded-lg"
+                  >
+                    <div className="mb-4">{item.icon}</div>
+                    <h3 className="text-lg font-semibold text-primary-700 mb-2">
+                      {item.title}
+                    </h3>
+                    <p className="text-gray-600">{item.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center bg-primary-50 p-6 rounded-lg">
               <h4 className="text-lg font-semibold text-primary-700 mb-2">
                 Harga Terjangkau
@@ -379,42 +379,42 @@ const Home = () => {
               </p>
             </div>
           </div> */}
-        </div>
-      </section>
-
-      {/* Menu Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
-              Menu <span className="text-secondary-500">Favorit</span>
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Nikmati berbagai pilihan menu dengan cita rasa autentik Lebanon
-              yang menggugah selera.
-            </p>
           </div>
+        </section>
 
-          {menuItems.map((category, categoryIndex) => (
-            <div key={categoryIndex} className="mb-12">
-              <h3 className="text-2xl font-bold text-primary-700 mb-6 text-center">
-                {category.category}
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {category.items.map((item, itemIndex) => (
-                  <div
-                    key={itemIndex}
-                    className="border-2 border-primary-700 rounded-lg bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-                  >
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      className="w-full h-96 object-cover p-4"
-                    />
-                    <div className="p-4 text-white bg-primary-700 text-lg">
-                      {item.name}
-                    </div>
-                    {/* <div className="p-6">
+        {/* Menu Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
+                Menu <span className="text-secondary-500">Favorit</span>
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Nikmati berbagai pilihan menu dengan cita rasa autentik Lebanon
+                yang menggugah selera.
+              </p>
+            </div>
+
+            {menuItems.map((category, categoryIndex) => (
+              <div key={categoryIndex} className="mb-12">
+                <h3 className="text-2xl font-bold text-primary-700 mb-6 text-center">
+                  {category.category}
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  {category.items.map((item, itemIndex) => (
+                    <div
+                      key={itemIndex}
+                      className="border-2 border-primary-700 rounded-lg bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+                    >
+                      <img
+                        src={item.image}
+                        alt={item.name}
+                        className="w-full h-96 object-cover p-4"
+                      />
+                      <div className="p-4 text-white bg-primary-700 text-lg">
+                        {item.name}
+                      </div>
+                      {/* <div className="p-6">
                       <h4 className="text-lg font-semibold text-primary-700 mb-2">
                         {item.name}
                       </h4>
@@ -425,66 +425,66 @@ const Home = () => {
                         Pesan Sekarang
                       </button>
                     </div> */}
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
-              Testimoni <span className="text-secondary-500">Pelanggan</span>
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Dengarkan pengalaman pelanggan yang puas dengan Sultan Lebanese
-              Kebab.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-6">
-                <div className="flex items-center mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className="h-5 w-5 text-secondary-500 fill-current"
-                    />
+                    </div>
                   ))}
-                </div>
-                <p className="text-gray-700 mb-4 italic">
-                  &ldquo;{testimonial.comment}&rdquo;
-                </p>
-                <div className="flex items-center">
-                  <div>
-                    <p className="font-semibold text-primary-700">
-                      {testimonial.name}
-                    </p>
-                    <p className="text-gray-600">{testimonial.location}</p>
-                  </div>
                 </div>
               </div>
             ))}
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Promo Section */}
-      <section className="py-16 bg-gradient-to-r from-secondary-500 to-secondary-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Dapatkan Promo Menarik
-            </h2>
-            {/* <p className="text-xl mb-8">
+        {/* Testimonials Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
+                Testimoni <span className="text-secondary-500">Pelanggan</span>
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Dengarkan pengalaman pelanggan yang puas dengan Sultan Lebanese
+                Kebab.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {testimonials.map((testimonial, index) => (
+                <div key={index} className="bg-gray-50 rounded-lg p-6">
+                  <div className="flex items-center mb-4">
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <Star
+                        key={i}
+                        className="h-5 w-5 text-secondary-500 fill-current"
+                      />
+                    ))}
+                  </div>
+                  <p className="text-gray-700 mb-4 italic">
+                    &ldquo;{testimonial.comment}&rdquo;
+                  </p>
+                  <div className="flex items-center">
+                    <div>
+                      <p className="font-semibold text-primary-700">
+                        {testimonial.name}
+                      </p>
+                      <p className="text-gray-600">{testimonial.location}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Promo Section */}
+        <section className="py-16 bg-gradient-to-r from-secondary-500 to-secondary-600 text-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Dapatkan Promo Menarik
+              </h2>
+              {/* <p className="text-xl mb-8">
               Dapatkan diskon hingga 30% untuk pembelian paket combo
             </p> */}
-            {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white bg-opacity-10 rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-2">Paket Hemat</h3>
                 <p className="mb-4">Kebab + Minuman + Kentang</p>
@@ -511,26 +511,26 @@ const Home = () => {
               </div>
             </div> */}
 
-            {menuItems2.map((category, categoryIndex) => (
-              <div key={categoryIndex} className="mb-12">
-                <h3 className="text-2xl font-bold text-primary-700 mb-6 text-center">
-                  {category.category}
-                </h3>
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-                  {category.items.map((item, itemIndex) => (
-                    <div
-                      key={itemIndex}
-                      className="border-2 border-primary-700 bg-white rounded-tl-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-                    >
-                      <img
-                        src={item.image}
-                        alt={item.name}
-                        className="w-full h-64 object-cover p-4"
-                      />
-                      <div className="p-4 text-white bg-primary-700 text-lg">
-                        {item.name}
-                      </div>
-                      {/* <div className="p-6">
+              {menuItems2.map((category, categoryIndex) => (
+                <div key={categoryIndex} className="mb-12">
+                  <h3 className="text-2xl font-bold text-primary-700 mb-6 text-center">
+                    {category.category}
+                  </h3>
+                  <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    {category.items.map((item, itemIndex) => (
+                      <div
+                        key={itemIndex}
+                        className="border-2 border-primary-700 bg-white rounded-tl-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+                      >
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          className="w-full h-64 object-cover p-4"
+                        />
+                        <div className="p-4 text-white bg-primary-700 text-lg">
+                          {item.name}
+                        </div>
+                        {/* <div className="p-6">
                       <h4 className="text-lg font-semibold text-primary-700 mb-2">
                         {item.name}
                       </h4>
@@ -541,21 +541,21 @@ const Home = () => {
                         Pesan Sekarang
                       </button>
                     </div> */}
-                    </div>
-                  ))}
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
-            <a 
-              href="https://wa.me/6281345383331" 
-              className="mt-8 bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors inline-block"
-            >
-              Pesan Sekarang
-            </a>
+              ))}
+              <a
+                href="https://wa.me/6281345383331"
+                className="mt-8 bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors inline-block"
+              >
+                Pesan Sekarang
+              </a>
+            </div>
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+      </div>
     </>
   );
 };
