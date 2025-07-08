@@ -160,13 +160,13 @@ const Navbar = () => {
             >
               Menu
             </Link>
-            <Link 
+            {/* <Link 
               to="/partnership" 
               onClick={closeMobileMenu}
               className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${getMobileActiveClass('/partnership')}`}
             >
               Kemitraan
-            </Link>
+            </Link> */}
             <Link 
               to="/gallery" 
               onClick={closeMobileMenu}
