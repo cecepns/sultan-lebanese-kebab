@@ -9,9 +9,13 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Partnership from './pages/Partnership';
 import Admin from './pages/Admin';
+import useScrollToTop from './hooks/useScrollToTop';
 import './App.css';
 
 function App() {
+  // Use the scroll to top hook
+  useScrollToTop();
+
   return (
     <HelmetProvider>
       <Router>
