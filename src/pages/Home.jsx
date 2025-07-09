@@ -119,7 +119,7 @@ const Home = () => {
       />
       <div className="min-h-screen">
         {/* Banner Section */}
-        <section className="relative flex flex-col items-center justify-center bg-gradient-to-r from-primary-700 to-primary-600 text-white py-20 min-h-[700px]">
+        <section className="relative flex flex-col items-center justify-center bg-gradient-to-r from-primary-700 to-primary-600 text-white py-20 min-h-[680px]">
           {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
           {/* <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30" style={{ backgroundImage: 'url(/src/assets/.png)' }}></div> */}
 
@@ -192,10 +192,10 @@ const Home = () => {
       </div> */}
 
         {/* Welcome Section */}
-        <section className="py-16 bg-white md:mt-24">
+        <section className="py-16 bg-white md:pt-44">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div className="mb-12">
+              <div className="mb-4 md:mb-44">
                 <h2 className="text-3xl md:text-4xl font-bold text-primary-700 mb-4">
                   Selamat Datang di <br /> Sultan Lebanese Kebab
                 </h2>
@@ -209,11 +209,11 @@ const Home = () => {
                 </p>
               </div>
               <div className="relative">
-                <div className="absolute w-96 -top-44 right-44 h-96 bg-primary-700 rounded-lg"></div>
+                <div className="hidden md:block absolute w-96 -top-44 right-44 h-96 bg-primary-700 rounded-lg"></div>
                 <img
                   src={kebab2}
                   alt="logo"
-                  className="absolute -top-[200px] z-10 w-96 h-auto object-cover rounded-lg"
+                  className="md:absolute md:-top-[200px] md:z-10 w-96 h-auto object-cover rounded-lg"
                 />
               </div>
             </div>

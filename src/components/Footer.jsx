@@ -10,8 +10,8 @@ const Footer = () => {
               Sultan Lebanese Kebab
             </h3>
             <p className="text-gray-300 mb-4">
-              Kebab autentik yang telah berdiri sejak
-              2021. Kami menggunakan bahan-bahan berkualitas tinggi dan halal.
+              Kebab autentik yang telah berdiri sejak 2021. Kami menggunakan
+              bahan-bahan berkualitas tinggi dan halal.
             </p>
             <div className="flex space-x-3">
               {/* <Facebook className="h-6 w-6 text-secondary-300 hover:text-white cursor-pointer" /> */}
@@ -29,24 +29,23 @@ const Footer = () => {
 
           <div>
             <h4 className="text-lg font-semibold mb-4 text-secondary-300">
+              Outlet
+            </h4>
+            <ul className="space-y-2 text-gray-300">
+              <li>DAM (sebrang pom bensin DAM)</li>
+              <li>Kebun sayur ( sebrang lapangan Foni)</li>
+              <li>Prapatan ( depan masjid Nahdlatul ulama)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-semibold mb-4 text-secondary-300">
               Menu
             </h4>
             <ul className="space-y-2 text-gray-300">
               <li>Kebab</li>
               <li>Burger</li>
               <li>Minuman</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-lg font-semibold mb-4 text-secondary-300">
-              Company
-            </h4>
-            <ul className="space-y-2 text-gray-300">
-              <li>About Us</li>
-              <li>Kemitraan</li>
-              <li>Gallery</li>
-              <li>Contact</li>
             </ul>
           </div>
 
