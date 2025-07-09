@@ -1,8 +1,4 @@
-import {
-  Instagram,
-  Phone,
-  MapPin,
-} from "lucide-react";
+import { Instagram, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -14,14 +10,19 @@ const Footer = () => {
               Sultan Lebanese Kebab
             </h3>
             <p className="text-gray-300 mb-4">
-              Kebab autentik dengan cita rasa Lebanon yang telah berdiri sejak
+              Kebab autentik yang telah berdiri sejak
               2021. Kami menggunakan bahan-bahan berkualitas tinggi dan halal.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex space-x-3">
               {/* <Facebook className="h-6 w-6 text-secondary-300 hover:text-white cursor-pointer" /> */}
-              <a href="https://www.instagram.com/sultankebab_id/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.instagram.com/sultankebab_id/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Instagram className="h-6 w-6 text-secondary-300 hover:text-white cursor-pointer" />
               </a>
+              <div>sultankeba_id</div>
               {/* <Twitter className="h-6 w-6 text-secondary-300 hover:text-white cursor-pointer" /> */}
             </div>
           </div>

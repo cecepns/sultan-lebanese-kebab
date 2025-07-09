@@ -101,7 +101,7 @@ const Contact = () => {
       <SEO 
         title="Kontak Kami"
         description="Hubungi Sultan Lebanese Kebab di Balikpapan. Telepon: 0813-4538-3331. Alamat: Perumahan Balikpapan Kota Blok B No 28 RT 14, Balikpapan Selatan. Jam buka: 10:00-22:00"
-        keywords="kontak sultan lebanese kebab, alamat kebab balikpapan, telepon kebab lebanon, lokasi sultan lebanese kebab, jam buka kebab balikpapan"
+        keywords="kontak sultan lebanese kebab, alamat kebab balikpapan, telepon kebab, lokasi sultan lebanese kebab, jam buka kebab balikpapan"
         url="https://sultanlebanesekebab.com/contact"
         structuredData={contactStructuredData}
       />
@@ -176,7 +176,7 @@ const Contact = () => {
                 Jam Buka
               </h3>
               <p className="text-gray-600">Senin - Minggu</p>
-              <p className="text-gray-600">10:00 - 22:00</p>
+              <p className="text-gray-600">18:00 - 01:00 WITA</p>
             </div>
           </div>
         </div>

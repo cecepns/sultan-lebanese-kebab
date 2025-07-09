@@ -9,9 +9,9 @@ const SEO = ({
   type = 'website',
   structuredData 
 }) => {
-  const defaultTitle = "Sultan Lebanese Kebab - Kebab Autentik Lebanon di Balikpapan | Pesan Online";
-  const defaultDescription = "Nikmati kebab autentik Lebanon terenak di Balikpapan. Bahan berkualitas halal, cita rasa asli Lebanon. Lokasi: Perumahan Balikpapan Kota Blok B No 28. Pesan online via WhatsApp: 0813-4538-3331";
-  const defaultKeywords = "kebab lebanon, kebab balikpapan, sultan lebanese kebab, makanan halal, kebab autentik, pesan kebab online, delivery kebab balikpapan, franchise kebab";
+  const defaultTitle = "Sultan Lebanese Kebab - Kebab Autentik di Balikpapan | Pesan Online";
+  const defaultDescription = "Nikmati kebab autentik terenak di Balikpapan. Bahan berkualitas halal, cita rasa asli. Lokasi: Perumahan Balikpapan Kota Blok B No 28. Pesan online via WhatsApp: 0813-4538-3331";
+  const defaultKeywords = "kebab, kebab balikpapan, sultan lebanese kebab, makanan halal, kebab autentik, pesan kebab online, delivery kebab balikpapan, franchise kebab";
   const defaultImage = "/src/assets/logo-clean.png";
   const defaultUrl = "https://sultanlebanesekebab.com";
 

@@ -2,7 +2,7 @@ import { Star, Users, Award, Clock, Shield } from "lucide-react";
 import SEO from "../components/SEO";
 import burger from "../assets/burger.png";
 import kebab from "../assets/kebab.png";
-import kebab2 from "../assets/kebab2.png";
+import kebab2 from "../assets/kebab-section-1.jpeg";
 import wave1 from "../assets/wave1.png";
 import logoClear from "../assets/logo-clean.png";
 import Bontenk from "../assets/bonteng.png";
@@ -113,76 +113,76 @@ const Home = () => {
     <>
       <SEO
         title="Beranda"
-        description="Sultan Lebanese Kebab - Kebab autentik Lebanon terenak di Balikpapan. Nikmati cita rasa asli Lebanon dengan bahan berkualitas halal. Pesan online via WhatsApp: 0813-4538-3331"
-        keywords="kebab lebanon balikpapan, sultan lebanese kebab, kebab autentik, makanan halal balikpapan, pesan kebab online, delivery kebab"
+        description="Sultan Lebanese Kebab - Kebab autentik terenak di Balikpapan. Nikmati cita rasa autentik dan menggunakan bahan berkualitas halal. Pesan online via WhatsApp: 0813-4538-3331"
+        keywords="kebab lebanese balikpapan, sultan lebanese kebab, kebab autentik, makanan halal balikpapan, pesan kebab online, delivery kebab"
         url="https://sultanlebanesekebab.com"
       />
       <div className="min-h-screen">
         {/* Banner Section */}
         <section className="relative flex flex-col items-center justify-center bg-gradient-to-r from-primary-700 to-primary-600 text-white py-20 min-h-[700px]">
-        {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
-        {/* <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30" style={{ backgroundImage: 'url(/src/assets/.png)' }}></div> */}
+          {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
+          {/* <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30" style={{ backgroundImage: 'url(/src/assets/.png)' }}></div> */}
 
-        <img
-          src={burger}
-          alt="burger"
-          className="w-24 md:w-96 absolute left-0 top-0 h-auto object-cover z-10"
-        />
+          <img
+            src={burger}
+            alt="burger"
+            className="w-24 md:w-96 absolute left-0 top-0 h-auto object-cover z-10"
+          />
 
-        <img
-          src={kebab}
-          alt="kebab"
-          className="w-44 md:w-96 right-0 -bottom-10 md:-bottom-20 h-auto absolute object-cover z-10"
-        />
+          <img
+            src={kebab}
+            alt="kebab"
+            className="w-44 md:w-96 right-0 -bottom-10 md:-bottom-20 h-auto absolute object-cover z-10"
+          />
 
-        <img
-          src={wave1}
-          alt="wave"
-          className="w-44 md:w-1/2 left-44 md:-left-44 h-auto absolute -bottom-10 md:bottom-0 z-0"
-        />
+          <img
+            src={wave1}
+            alt="wave"
+            className="w-44 md:w-1/2 left-44 md:-left-44 h-auto absolute -bottom-10 md:bottom-0 z-0"
+          />
 
-        <img
-          src={wave1}
-          alt="wave"
-          className="hidden md:block w-44 md:w-1/2 rotate-180 right-10 md:-right-0 h-auto absolute none md:-bottom-64 z-0"
-        />
+          <img
+            src={wave1}
+            alt="wave"
+            className="hidden md:block w-44 md:w-1/2 rotate-180 right-10 md:-right-0 h-auto absolute none md:-bottom-64 z-0"
+          />
 
-        <img
-          src={Bontenk}
-          alt="wave"
-          className="hidden md:block w-44 rotate-180 right-10 md:-right-0 h-auto absolute none md:top-10 z-0"
-        />
+          <img
+            src={Bontenk}
+            alt="wave"
+            className="hidden md:block w-44 rotate-180 right-10 md:-right-0 h-auto absolute none md:top-10 z-0"
+          />
 
-        <img
-          src={Bontenk2}
-          alt="wave"
-          className="w-24 md:w-44 rotate-180 left-5 md:left-10 md:-right-0 h-auto absolute none bottom-10 md:bottom-10 z-0"
-        />
+          <img
+            src={Bontenk2}
+            alt="wave"
+            className="w-24 md:w-44 rotate-180 left-5 md:left-10 md:-right-0 h-auto absolute none bottom-10 md:bottom-10 z-0"
+          />
 
-        <div className="w-full h-full flex items-center justify-center">
-          <div className="relative h-full w-full mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                Sultan Lebanese Kebab
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-secondary-200">
-                Enaknya sampai gulungan terakhir
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="https://wa.me/6281345383331" 
-                  className="bg-secondary-500 hover:bg-secondary-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors inline-block text-center"
-                >
-                  Pesan Sekarang
-                </a>
-                <button className="border-2 border-secondary-400 text-secondary-400 hover:bg-secondary-400 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                  Lihat Menu
-                </button>
+          <div className="w-full h-full flex items-center justify-center">
+            <div className="relative h-full w-full mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center">
+                <h1 className="text-4xl md:text-6xl font-bold mb-4">
+                  Sultan Lebanese Kebab
+                </h1>
+                <p className="text-xl md:text-2xl mb-8 text-secondary-200">
+                  Enaknya sampai gulungan terakhir
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <a
+                    href="https://wa.me/6281345383331"
+                    className="bg-secondary-500 hover:bg-secondary-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors inline-block text-center"
+                  >
+                    Pesan Sekarang
+                  </a>
+                  <button className="border-2 border-secondary-400 text-secondary-400 hover:bg-secondary-400 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                    Lihat Menu
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
         {/* <div className="relative h-14 mt-4">
         <img
           src={wave}
@@ -208,11 +208,12 @@ const Home = () => {
                   aman dan terjamin kualitasnya.
                 </p>
               </div>
-              <div className="flex justify-center items-center bg-gradient-to-r from-primary-700 to-primary-600 rounded-lg">
+              <div className="relative">
+                <div className="absolute w-96 -top-44 right-44 h-96 bg-primary-700 rounded-lg"></div>
                 <img
                   src={kebab2}
                   alt="logo"
-                  className="w-96 h-auto object-cover rounded-lg"
+                  className="absolute -top-[200px] z-10 w-96 h-auto object-cover rounded-lg"
                 />
               </div>
             </div>
@@ -390,8 +391,10 @@ const Home = () => {
                 Menu <span className="text-secondary-500">Favorit</span>
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Nikmati berbagai pilihan menu dengan cita rasa autentik Lebanon
-                yang menggugah selera.
+                Satu satunya kebab di Kalimantan yang menggunakan kulit lebanese
+                yang memiliki tekstur lembut serta cita rasa yang gurih membuat
+                lidah semakin di manjakan dengan kenikmatan yang luar biasa
+                Yang dimanaa jenis kulit kebab lebanese ini kami produksi secara mandiri yang sudah bersertifikat halal dan lulus kelayakan Konsumsi
               </p>
             </div>
 

@@ -87,7 +87,7 @@ const Gallery = () => {
     "@context": "https://schema.org",
     "@type": "ImageGallery",
     "name": "Gallery Sultan Lebanese Kebab",
-    "description": "Koleksi foto makanan dan outlet Sultan Lebanese Kebab di Balikpapan. Lihat kebab autentik Lebanon, burger kebab, dan outlet kami.",
+    "description": "Koleksi foto makanan dan outlet Sultan Lebanese Kebab di Balikpapan. Lihat kebab autentik, burger kebab, dan outlet kami.",
     "url": "https://sultanlebanesekebab.com/gallery",
     "image": galleryImages.map(img => ({
       "@type": "ImageObject",
@@ -101,8 +101,8 @@ const Gallery = () => {
     <>
       <SEO 
         title="Gallery Foto"
-        description="Lihat gallery foto Sultan Lebanese Kebab: Sandwich Kebab, Lebanese Kebab, Burger Kebab, Hotdog Kebab, dan outlet kami di Balikpapan. Makanan autentik Lebanon."
-        keywords="gallery sultan lebanese kebab, foto kebab lebanon, gambar outlet kebab balikpapan, foto makanan kebab, gallery makanan halal"
+        description="Lihat gallery foto Sultan Lebanese Kebab: Sandwich Kebab, Lebanese Kebab, Burger Kebab, Hotdog Kebab, dan outlet kami di Balikpapan. Makanan autentik."
+        keywords="gallery sultan lebanese kebab, foto kebab lebanese, gambar outlet kebab balikpapan, foto makanan kebab, gallery makanan halal"
         url="https://sultanlebanesekebab.com/gallery"
         structuredData={galleryStructuredData}
       />
