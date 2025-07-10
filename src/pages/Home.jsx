@@ -209,7 +209,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="relative w-full h-full flex items-center justify-center">
-                <div className="hidden md:block absolute w-96 top-5 right-10 h-96 bg-primary-700 rounded-lg"></div>
+                <div className="hidden md:block absolute w-96 top-8 right-14 h-96 bg-primary-700 rounded-lg"></div>
                 <img
                   src={kebab2}
                   alt="logo"
