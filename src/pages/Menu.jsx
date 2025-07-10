@@ -23,14 +23,14 @@ const Menu = () => {
 
   const menuItems = [
     // Kebab
-    { id: 1, name: 'Sandwich Kebab', category: 'kebab', price: 25000, image: sandwichkebab, description: 'Kebab daging domba dengan bumbu khas Lebanon' },
+    { id: 1, name: 'Sandwich Kebab', category: 'kebab', price: 25000, image: sandwichkebab, description: 'Kebab daging domba dengan bumbu khas Lebanese' },
     { id: 2, name: 'Lebanese Kebab', category: 'kebab', price: 22000, image: lebanesKebab, description: 'Kebab ayam dengan sambal pedas' },
     
     // Burger
-    { id: 5, name: 'Lebanese Burger', category: 'burger', price: 30000, image: burgerkebab, description: 'Burger khas Lebanon dengan patty daging sapi' },
+    { id: 5, name: 'Lebanese Burger', category: 'burger', price: 30000, image: burgerkebab, description: 'Burger khas dengan patty daging sapi' },
 
     // Hotdough
-    { id: 6, name: 'Hotdough', category: 'hotdough', price: 20000, image: hotdough, description: 'Hotdough khas Lebanon dengan patty daging sapi' },
+    { id: 6, name: 'Hotdough', category: 'hotdough', price: 20000, image: hotdough, description: 'Hotdough khas dengan patty daging sapi' },
   ];
 
   const filteredItems = menuItems.filter(item => {
