@@ -208,12 +208,12 @@ const Home = () => {
                   aman dan terjamin kualitasnya.
                 </p>
               </div>
-              <div className="relative">
-                <div className="hidden md:block absolute w-96 -top-44 right-44 h-96 bg-primary-700 rounded-lg"></div>
+              <div className="relative w-full h-full flex items-center justify-center">
+                <div className="hidden md:block absolute w-96 top-5 right-10 h-96 bg-primary-700 rounded-lg"></div>
                 <img
                   src={kebab2}
                   alt="logo"
-                  className="md:absolute md:-top-[200px] md:z-10 w-96 h-auto object-cover rounded-lg"
+                  className="md:absolute md:-top-0 md:z-10 w-96 h-auto object-cover rounded-lg"
                 />
               </div>
             </div>
