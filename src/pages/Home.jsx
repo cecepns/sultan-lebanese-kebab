@@ -201,7 +201,7 @@ const Home = () => {
                 </h2>
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                   Sejak 2021, kami telah menyajikan kebab autentik dengan cita
-                  rasa Lebanon yang menggugah selera. Dengan bahan-bahan
+                  rasa Lebanese yang menggugah selera. Dengan bahan-bahan
                   berkualitas tinggi, kami berkomitmen memberikan pengalaman
                   kuliner terbaik untuk Anda. Semua produk kami telah
                   bersertifikat halal dan menggunakan bahan-bahan pilihan yang
